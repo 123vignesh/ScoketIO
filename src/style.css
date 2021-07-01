@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    font-style: italic;
+    color: slateblue;
+}
+.container{
+    margin:40px;
+    border:4px solid rgb(85, 85, 231);
+    padding:20px;
+    height:90%;
+}
+
+#chatroom{
+    border:3px solid black;
+    height:550px;
+    width:100%;
+    margin-bottom: 10px;
+    padding:20px;
+    font-size: larger;
+    overflow:scroll;
+}
+
+
+
+#message{
+    width:93%;
+    height:40px;
+    border:3px solid black;
+    padding-left: 5px;
+    font-size: larger;
+}
+
+button{
+    background-color: black;
+    color:white;
+     height:40px;
+     width:100px;
+}
+
+button:hover{
+    background-color:rgb(185, 170, 170);
+}
+
+#change_username{
+    margin-bottom: 10px;
+}
+#username{
+    width:400px;
+    height: 40px;
+    border:3px solid black;
+}
+#send_username{
+  width:200px;
+  height:40px;
+}
+
+.message{
+    background-color: rgb(174, 192, 199);
+    border-radius: 10px;
+    height:38px;
+    padding: 5px;
+    width: fit-content;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
